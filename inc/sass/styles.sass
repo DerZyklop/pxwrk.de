@@ -1,0 +1,122 @@
+@import 'compass'
+
+@import 'variables'
+
+@import '../../../github.pxwrk.de/pxwrk-sass-dummy-0.3/mixins/all'
+
++all
+
+body
+  background: $body-background
+
+h1
+  //background: rgba(255,255,255,1)
+  //+background-image( linear-gradient($tertiary + #111, $tertiary) )
+  background: 
+    color: #fff
+    image: url('../images/pxwrk-logo.png')
+    repeat: no-repeat
+    position: center center
+  //color: $quadrary
+  color: $tertiary
+  //color: rgba(255,255,255,1)
+  border-bottom: 1px dashed rgba(0,0,0,0.2)
+  text-align: center
+  height: 230px
+  padding: 3em 0 0.5em 0
+  margin: 0
+  font-size: 0
+  position: relative
+  small 
+    display: block
+    position: absolute
+    bottom: 0
+    top: 0
+    left: 0
+    right: 0
+    a 
+      display: block
+      +transition(opacity 0.3s)
+      background: 
+        color: rgba(0,0,0,0.8)
+      line-height: 1em
+      line-height: 230px
+      font-size: 1em
+      font-size: 1rem
+      font-weight: normal
+      padding: 0
+      color: $quadrary
+      text-decoration: none
+      color: $quadrary
+      opacity: 0
+      &:hover
+        opacity: 1
+        color: $quadrary
+
+h3,
+img,
+p, 
+a.img-wrap,
+ul
+  display: block
+  max-width: $width-wrap-width
+  margin: 1em auto
+  padding-left: 1em
+  padding-right: 1em
+
+a.img-wrap
+  img
+    display: block
+
+#uberspace-img
+  margin: 4em auto
+
+#home p 
+  padding: 1em 2em
+  text-align: center
+
+ul
+  list-style: none
+  margin: 1em auto
+  li 
+    margin: 1em
+    border: 1px solid #ccc
+    a 
+      line-height: 2em
+      display: block
+      padding: 1em
+      background: $quadrary
+      +transition(0.4s)
+      color: $tertiary
+      &:hover
+        text-decoration: none
+        background: $tertiary + #111
+        color: $quadrary
+
+#footer 
+  background: #fff
+  border-top: 1px dashed rgba(0,0,0,0.2)
+  border-bottom: 1px dashed rgba(0,0,0,0.2)
+  text-align: center
+  line-height: 0.6em
+  padding: 2em
+  margin: 4em auto
+
+  //position: fixed
+  bottom: 0
+  left: 0
+  right: 0
+  a 
+    text-decoration: none
+    &:hover
+      color: $primary
+      text-decoration: underline
+
+div#fullscreen-image
+  width: 100%
+  //background: url('../images/036.jpg') center 42% no-repeat
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0

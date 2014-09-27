@@ -1,0 +1,84 @@
+==================================================================
+https://keybase.io/derzyklop
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pxwrk.de
+  * I am derzyklop (https://keybase.io/derzyklop) on keybase.
+  * I have a public key with fingerprint 4C01 31CF 617C 754C CCAE  B426 BBFA BBF8 9493 C258
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.5.1"
+        },
+        "key": {
+            "fingerprint": "4c0131cf617c754cccaeb426bbfabbf89493c258",
+            "host": "keybase.io",
+            "key_id": "BBFABBF89493C258",
+            "uid": "0189d832e14f39aed6dc77452dbff600",
+            "username": "derzyklop"
+        },
+        "merkle_root": {
+            "ctime": 1409873093,
+            "hash": "7efa7438bf77b15e55e30ee829c5062ec12c632b719cca81a395a0ed89d000899999aa191f2ec4893396d8084acef2fb7197ce6b0bd6ed0e8bfcdf899112e57e",
+            "seqno": 46836
+        },
+        "service": {
+            "hostname": "pxwrk.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1409873311,
+    "expire_in": 157680000,
+    "prev": "72a88d9dc6814603cdb78f75a2de7712949e50da2af3e87cbc779aafd45479cf",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkgtQFVUYxy+glpSAOkoWcJkNwgKZfT+4UQKGaKPM8EhnJK77OAsrcPey93IF
+eQmpDTgEISAGYZCK18JGshkHmtFQK3kKhBVGDL6KwEKId1G7RFOemTNz9uzv+3/f
+//tOySonnbND81zzTNmxlt0ObcOcLubJyZOZECcLGVBQJsQnS8Bk1U4mNgVAQVAS
+yOBYCwiUZG+TLIDAfRbvJSYAsgHFIskmlYIDiUAEyg7QcC1YlEwJQDErkqYF4TyM
+YAgvkgjFUwTO8zwLOBwlOU5k1U0zOIPxKEGrkomyxfpYVmhR0ygJ6m1oaHiIuhf5
+sH/4tMUfMEIzAo2hAMFFjGGBQAo8ReEEKnCiSMKwBlqAsmRJAMqBjKRk2awVnAKU
+pGRgVGR50TVvlTQGwWGGpjCYwdSSWEuiGkUBkaVwjOZEiuIQAhAEwGAAaJThCZhE
+AY+gPImhHIUwqj8aYTGGYGEgqJXBMEwz2mJZhEFElcVpBsMYUqBhGmd5IKKiFkfx
+gORgTiCBAAM1ES+ovWEQBAUEBVQPFpBqkqEgnKQxMlv7VGwSD7SytbYtuTOn71eS
+AgWNNyuyVeblZPU20Wo1B2l+rRlmjdoPOKMWb1cFjJxkEtSB/X+iiIo+3gsMQQIg
+kG6WFGCUNIKgSFp1Bmt5gE3rEMrStMAIPEkjOAljvMBRtEgRLCoAikJQdWyAgAUW
+ZUUM0BTPqTNSWyIKOIFTDC/+55BR62QTVEmLlGBirWkKgLILHD2W6RycdSuWO2pP
+Vue80u3fd3y0zHXBt+OpwcrsB9Uu4/Ur9gaUNbIbFQ713bHV69HJdHt61b5CefPM
+M913Zg+HRFbeizrxoC34e/3xuIm3PR39ejj9mdHW7etPHXHzj7/R8UZXsT0r/PRn
++ZUTTm4/fZMY+fRUXOe144ORDffvrRq4Wrnyslv8R7U14myL0/x7x4ZcY42Hf431
+xYld7+grRCYv4uft0WsaUhwLXxq7HlPU84p/judzr68t80jtP+zn4jocN/M51LOu
+if3k91HW1LrzchJI25pVHBr9ZYTzrRNXd9XYQlxKy290PZ9+U9eR37fw7ZtrRwx9
+b6G7c6P67ddCYcOmotl5Qwh2a3RDZm7H5KW5j1M/QHHUXlFqHH/0V/VMsWemYUN7
+66YXo4c+LU64uDGufs2eltHaLCSv68rtFxxsB72SuvXj7n802c+dPRTvnxfx9Vjv
+q2RsUZ67395D636r/0XwySFKo2JqbzrUzX1Rd9ucct9QXtVW7eLd3nSp4Iccg37L
+hdbNzc/az+/sLxwZmBjz89sxWXZ+2vjaj0feLezdMnwxNy6rIrvWHQwpkWF931U3
+dA/MT0WdzozO+yo3eKRX33PmKOxx98/p6eurLe7LGrY1HzzwcOjlDHevYXOjtWbC
+Rwmvr0N9yp+o+rBxedPAqU7rQvm5MDfb3ZLOguCSoYd31g++v3rb9J78K9W50YbW
+C1bj2fYpMcZl4W8=
+=Ve1B
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/derzyklop
+
+==================================================================
+

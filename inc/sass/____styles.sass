@@ -1,0 +1,416 @@
+@import 'compass'
+
+@import 'variables'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#fullscreen-image
+  width: 100%
+  background: url('../images/036.jpg') center 45% no-repeat
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+
+h1 
+  background: rgba(255,255,255,0.1)
+  background: transparent
+  background: rgba(255,255,255,0.1)
+  border-bottom: 1px solid rgba(255,255,255,0.5)
+  color: $quadrary
+
+
+
+
+
+
+
+
+
+
+
+
+\:focus
+  outline: 0
+
+\::-moz-selection
+  background: $primary
+  color: $font-color-highlight
+
+\::selection
+  background: $primary
+  color: $font-color-highlight
+
+html, body
+  height: 100%
+
+body
+  margin: 0
+  background: $quadrary
+
+hr
+  border: none
+  background: $border-color
+  height: 2px
+
+video, img
+  display: block
+  outline: none
+
+fieldset 
+  padding: $page-wrap-padding-t-b $page-wrap-padding-l-r
+  border: 
+    color: $border-color + #222
+    style: $border-style
+    width: $border-width
+
+button, .button, input[type="button"], input[type="submit"], input[type="reset"]
+  display: block
+  +box-sizing(border-box)
+  width: 100%
+  padding: 0 1em
+  cursor: pointer
+  line-height: 2.6rem
+  font: 
+    weight: bold
+    size: 1rem
+  color: $font-color-highlight
+  text: 
+    align: center
+    decoration: none
+  background: $tertiary
+  border: $border-width solid $quadrary
+  +border-radius($radius)
+  +transition(0.3s)
+  &:hover
+    text-decoration: none
+    color: $font-color-highlight
+    background: $tertiary - #222
+  a 
+    text-decoration: none
+  &:disabled, &.passive
+    background: $border-color + #111
+    border: $border-width $border-style $border-color
+    cursor: default
+
+input[type="text"], input[type="date"], input[type="password"], textarea
+  display: block
+  +box-sizing(border-box)
+  width: 100%
+  border: 
+    width: $border-width
+    style: $border-style
+    color: $border-color
+  background: #fafafa
+  border-radius: $radius
+  padding: 0.3em 2%
+  font-size: 1em
+  line-height: 1.5em
+  &:focus
+    border-color: $border-color - #222
+    +box-shadow(inset 0 0 6px rgba(0,0,0,0.1))
+    background: $font-color-highlight
+textarea
+  resize: vertical
+
+blockquote
+  padding: 0 0 0 2.5em
+  margin: 2em 0
+  border-left: $border-width $border-style $border-color
+  font-style: italic
+
+pre
+  background: $width-wrap-background + #f8f8f8
+  border: $border-width*4 $border-style $border-color
+  padding: 20px
+  overflow: scroll
+  +box-shadow( 0px 0px 10px rgba(0,0,0,0.8) inset )
+  code
+    background: transparent
+code
+  +transition(background 0.5s)
+  background: $width-wrap-background + #0a0a0a
+  padding: 0.1em 0.2em
+  +border-radius(4px)
+
+table
+  width: 100%
+
+// Typo
+
+body
+  font-size: $font-size
+  line-height: 1.8em
+  font-family: $font-std
+
+h1, h2, h3, h4, h5, h6
+  font-family: $font-highlight
+  padding: 0.3em 0
+  margin: 0
+  line-height: 1.4em
+
+h1, h2, h3, h4, h5, h6
+  color: $primary
+
+h3, h4, h5, h6
+  font-weight: normal
+
+h1
+  font-size: 2.5em
+h2
+  font-size: 2.12em
+h3
+  font-size: 1.88em
+h4
+  font-size: 1.5em
+h5
+  font-size: 1.2em
+h6
+  font-size: 1em
+
+a
+  color: $primary
+  &:hover
+    color: $tertiary
+
+p
+  img
+    margin-top: 0.5em
+p, ul, ol
+  a
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+
+legend 
+  color: $border-color - #444
+  font-weight: bold
+
+// HTML-Elemente [END]
+
+// Standart-Klassen [BEGIN]
+
+.left
+  float: left
+
+.right
+  float: right
+
+.clearit
+  height: 0 !important
+  width: 0 !important
+  line-height: 0 !important
+  clear: both !important
+  float: none !important
+
+// Standart-Klassen [END]
+
+$header-width: 320px
+$main-max-width: 600px
+$breakpoint: 800px
+
+$tent-line-height: 22px
+
+$footer-height: 140px
+
+$header-bg: #faf9f4 url('../images/noise.png')
+
+$seperator-color: #F2EDEA - #111
+$seperator-color: #{$primary}
+$seperator-color: #{$tertiary}
+$seperator-color: #F2EDEA
+$seperator-color: #e3dac8
+
+$nav-border-color: #F2EDEA - #111
+
+body
+  position: absolute
+  width: 100%
+
+#body-inner
+  min-height: 100%
+  position: relative
+
+h1, h2
+  text-align: center
+  font-weight: normal
+
+p a 
+  color: $tertiary
+
+hr
+  height: 1px
+  background-color: $seperator-color
+
+img
+  max-width: 100%
+
+header 
+  padding-bottom: $tent-line-height * 2
+  overflow-x: scroll
+  background: $header-bg
+  border-bottom: 2px solid $seperator-color - #111
+  +box-sizing(border-box)
+  @media screen and (min-device-width: $breakpoint) and (min-width: $breakpoint)
+    position: fixed
+    left: 0
+    top: 0
+    bottom: 0
+    width: $header-width
+    border-right: 2px solid $seperator-color - #111
+    z-index: 10
+  h1
+    padding: 0
+    a
+      img
+        padding: $page-wrap-padding-l-r
+        display: block
+        max-width: $header-width - $page-wrap-padding-l-r*2 - 2px
+        margin: 0 auto
+  ul#nav
+    padding: 0
+    margin: 0
+    list-style: none
+    border-bottom: 1px solid $nav-border-color
+    li, nav.submenu li
+      a
+        display: block
+        font: 
+          weight: bold
+          size: 18px
+          family: $font-highlight
+          weight: normal
+        padding: 0.7em $page-wrap-padding-l-r
+        padding-bottom: 8px
+        border: 
+          top: 1px solid $nav-border-color
+          bottom: 1px solid transparent
+        text-decoration: none
+        background: rgba(0,0,0,0.1)
+        background: rgba(255,255,255,0.4)
+      &:hover a
+        background: #fff
+        color: $tertiary - #111
+        text-decoration: none
+      &.active a
+        background: $tertiary
+        color: $font-color-highlight
+        border: 
+          top: 1px solid $tertiary - #222
+          bottom: 1px solid $tertiary - #222
+
+@media screen and (max-width: 480px)
+  section#main 
+    //position: absolute
+    //top: 0
+    //left: 0
+    //background: $quadrary
+    //&:hover
+      //left: 80%
+
+section#main 
+  padding-bottom: $tent-line-height
+  position: relative
+  @media screen and (min-device-width: $breakpoint) and (min-width: $breakpoint)
+    margin-left: $header-width
+  img
+    +border-radius($radius)
+    margin: 0 auto
+    &.left
+      margin: 0.5em  2em 0.5em 0
+  iframe
+    width:  100%
+  article
+    border-bottom: 1px solid $seperator-color
+    margin: 0
+    position: relative
+    iframe.twitter-timeline-rendered
+      width: 100% !important
+      position: static !important
+    aside
+      font: 
+        weight: bold
+        size: 0.8em
+        weight: normal
+        size: 0.8em
+      border-top: 1px solid $seperator-color - #333
+      padding: 1em 0
+      color: $primary
+    h2 
+      padding-top: 0
+      a 
+        text-decoration: none
+
+  article .main-width-wrap,
+  footer .main-width-wrap
+    padding: $page-wrap-padding-l-r
+    max-width: $main-max-width
+    min-width: $header-width
+    margin: 0 auto
+
+footer
+  bottom: $tent-line-height
+  background: $header-bg
+  border-bottom: 1px solid $seperator-color
+
+#panorama
+  background: #{$primary} url('../images/noise.png')
+  position: fixed
+  z-index: 20
+  height: $tent-line-height
+  width: 100%
+  bottom: 0
+  &:after
+    content: ' '
+    background: url('../images/path-tent.png')
+    height: 101px
+    width: 140px
+    position: absolute
+    bottom: 2px
+    right: 10px
+
+div.gallery-item
+  cursor: default
+a.gallery-item
+  cursor: pointer
+.gallery-item
+  float: left
+  display:  block
+  background: #fff
+  position:  relative
+  * 
+    +transition(0.3s)
+  div
+    position: absolute
+    top: 40%
+    left: 0
+    right: 0
+    text-align: center
+    font-weight: bold
+    z-index: 0
+    font-size: 0em
+  img
+    position: relative
+    z-index: 10
+    padding: 2px
+  &:hover 
+    img
+      opacity: 0.2
+    div
+      font-size: 1.1em
+      color: #000
+      z-index: 20
