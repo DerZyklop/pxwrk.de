@@ -11,10 +11,7 @@
           <a href="http://manisch.pxwrk.de/"><div class="left">Gießen-Manisch Wörterbuch</div><div class="right"><span style="font-weight:bold;">manisch</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>-->
       <li>
-          <a href="http://boilerplate.pxwrk.de/"><div class="left">My personal Boilerplate</div><div class="right"><span style="font-weight:bold;">boilerplate</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li>
-      <li>
-          <a href="http://heizdeckenradio.pxwrk.de/"><div class="left">HeizdeckenRadio</div><div class="right"><span style="font-weight:bold;">heizdeckenradio</span>.pxwrk.de</div><div class="clearit"></div></a>
+          <a href="http://portfolio.pxwrk.de/"><div class="left">Mein Portfolio</div><div class="right"><span style="font-weight:bold;">portfolio</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
       <li>
           <a href="http://syncscroll.pxwrk.de/"><div class="left">syncScroll.js</div><div class="right"><span style="font-weight:bold;">syncscroll</span>.pxwrk.de</div><div class="clearit"></div></a>
@@ -23,10 +20,10 @@
           <a href="http://pathum.pxwrk.de/"><div class="left">Pathum</div><div class="right"><span style="font-weight:bold;">pathum</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
       <li>
-          <a href="http://portfolio.pxwrk.de/"><div class="left">Mein Portfolio</div><div class="right"><span style="font-weight:bold;">portfolio</span>.pxwrk.de</div><div class="clearit"></div></a>
+          <a href="http://www.der-zyklop.de/"><div class="left">Mein Blog</div><div class="right">www.der-zyklop.de</div><div class="clearit"></div></a>
       </li>
       <li>
-          <a href="http://www.der-zyklop.de/"><div class="left">Mein Blog</div><div class="right">www.der-zyklop.de</div><div class="clearit"></div></a>
+          <a href="http://heizdeckenradio.pxwrk.de/"><div class="left">HeizdeckenRadio</div><div class="right"><span style="font-weight:bold;">heizdeckenradio</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
     </ul>
     <p>
@@ -39,12 +36,18 @@
       <li>
           <a href="http://mrdataconverter.pxwrk.de/"><div class="left">MrDataConverter</div><div class="right"><span style="font-weight:bold;">mrdataconverter</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
-      <li>
+<!--       <li>
           <a href="http://owncloud.pxwrk.de/"><div class="left">owncloud</div><div class="right"><span style="font-weight:bold;">owncloud</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li> -->
+      <li>
+        <a href="http://delete.pxwrk.de/"><div class="left">justdelete.me</div><div class="right"><span style="font-weight:bold;">delete</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
-      <li><a href="http://delete.pxwrk.de/"><div class="left">justdelete.me</div><div class="right"><span style="font-weight:bold;">delete</span>.pxwrk.de</div><div class="clearit"></div></a></li>
-      <li><a href="http://md.pxwrk.de/"><div class="left">Markdown Editor</div><div class="right"><span style="font-weight:bold;">md</span>.pxwrk.de</div><div class="clearit"></div></a></li>
-      <li><a href="http://jsequal.pxwrk.de/"><div class="left">JavaScript Equality-Table</div><div class="right"><span style="font-weight:bold;">jsequal</span>.pxwrk.de</div><div class="clearit"></div></a></li>
+      <li>
+        <a href="http://md.pxwrk.de/"><div class="left">Markdown Editor</div><div class="right"><span style="font-weight:bold;">md</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
+      <li>
+        <a href="http://jsequal.pxwrk.de/"><div class="left">JavaScript Equality-Table</div><div class="right"><span style="font-weight:bold;">jsequal</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
     </ul>
   </div>
   <?php require('inc/snippets/footer.html') ?>

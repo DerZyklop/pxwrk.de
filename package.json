@@ -1,0 +1,55 @@
+{
+  "name": "boilerplate.pxwrk.de",
+  "description": "Project by @DerZyklop",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Nils Neumann",
+    "email": "mail@der-zyklop.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-autoprefixer": "0.6.x",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-contrib-coffee": "0.7.x",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-contrib-imagemin": "0.x",
+    "grunt-contrib-sass": "0.4.x",
+    "grunt-contrib-uglify": "0.2.x",
+    "grunt-contrib-watch": "0.5.x",
+    "grunt-eslint": "~0.3.2",
+    "grunt-image-embed": "~0.3.1",
+    "grunt-newer": "~0.6.1",
+    "grunt-notify": "^0.3.0",
+    "grunt-php": "0.2.x",
+    "grunt-shell": "~0.6.1",
+    "matchdep": "0.1.x"
+  },
+  "dependencies": {
+    "time-grunt": "~0.2.10"
+  },
+  "paths": {
+    "root": "",
+    "src": {
+      "dir": "assets/",
+      "coffee": "assets/coffee/",
+      "js": "assets/pre_js/",
+      "sass": "assets/sass/",
+      "css": "assets/pre_css/"
+    },
+    "build": {
+      "dir": "assets/",
+      "js": "assets/js/",
+      "css": "assets/css/"
+    }
+  },
+  "readme": "# boilerplate.pxwrk.de\n\n## Install\n\nNavigate to your project. **Create a temporary package.json via `npm init`**.\n\n```\nnpm install DerZyklop/boilerplate.pxwrk.de\nsh node_modules/boilerplate.pxwrk.de/init\nnpm install\ngrunt\n```\n\n## Wat is it?\n\nThis is my personal project-boilerplate.\n\nI wouldn't recommend to use it as it is for your project. It's not documented.\nIt's just a collection of files, that i use in almost every project.\n",
+  "readmeFilename": "README.md",
+  "_id": "boilerplate.pxwrk.de@1.0.0",
+  "_shasum": "60d52f6f9ecdb796ab01a3dc4a65876ca6e5981a",
+  "_resolved": "git://github.com/DerZyklop/boilerplate.pxwrk.de#dc2b533b52d57bf65d15c668f18bc89f53c4f8ee",
+  "_from": "git://github.com/DerZyklop/boilerplate.pxwrk.de",
+  "_fromGithub": true
+}
