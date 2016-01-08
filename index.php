@@ -10,8 +10,17 @@
 <!--      <li>
           <a href="http://manisch.pxwrk.de/"><div class="left">Gießen-Manisch Wörterbuch</div><div class="right"><span style="font-weight:bold;">manisch</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>-->
-      <li>
+<!--      <li>
           <a href="http://portfolio.pxwrk.de/"><div class="left">Mein Portfolio</div><div class="right"><span style="font-weight:bold;">portfolio</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>-->
+      <li>
+          <a href="http://photo.pxwrk.de/"><div class="left">Meine Photos</div><div class="right"><span style="font-weight:bold;">photo</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
+      <li>
+          <a href="http://video.pxwrk.de/"><div class="left">Meine Videoproduktionen</div><div class="right"><span style="font-weight:bold;">video</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
+      <li>
+          <a href="http://kirbyintro.pxwrk.de/"><div class="left">Kirby Intro</div><div class="right"><span style="font-weight:bold;">kirbyintro</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
       <li>
           <a href="http://syncscroll.pxwrk.de/"><div class="left">syncScroll.js</div><div class="right"><span style="font-weight:bold;">syncscroll</span>.pxwrk.de</div><div class="clearit"></div></a>
@@ -23,7 +32,7 @@
           <a href="http://www.der-zyklop.de/"><div class="left">Mein Blog</div><div class="right">www.der-zyklop.de</div><div class="clearit"></div></a>
       </li>
       <li>
-          <a href="http://heizdeckenradio.pxwrk.de/"><div class="left">HeizdeckenRadio</div><div class="right"><span style="font-weight:bold;">heizdeckenradio</span>.pxwrk.de</div><div class="clearit"></div></a>
+          <a href="http://heizdeckenradio.pxwrk.de/"><div class="left">Podcast HeizdeckenRadio</div><div class="right"><span style="font-weight:bold;">heizdeckenradio</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
     </ul>
     <p>
@@ -47,6 +56,14 @@
       </li>
       <li>
         <a href="http://jsequal.pxwrk.de/"><div class="left">JavaScript Equality-Table</div><div class="right"><span style="font-weight:bold;">jsequal</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
+    </ul>
+    <p>
+      GitHub stuff
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/DerZyklop/ui-pattern"><div class="left">Startpoint for UI projects</div><div class="right"><span style="font-weight:bold;">ui-pattern</span></div><div class="clearit"></div></a>
       </li>
     </ul>
   </div>
