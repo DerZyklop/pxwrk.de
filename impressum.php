@@ -8,7 +8,7 @@
     <p>Nils Neumann<br />
     Holzweg 11<br />
     35447 Reiskirchen</p>
-    <p><a href="mailto:mail@der-zyklop.de">mail@pxwrk.de</a></p>
+    <p>mail[at]pxwrk.de</p>
 <p>Lizenz für alle Inhalte (sofern nicht anders angegeben)<br />CC-BY-SA 2.0 by Nils Neumann 2013</p>
 
 

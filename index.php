@@ -57,6 +57,9 @@
       <li>
         <a href="http://jsequal.pxwrk.de/"><div class="left">JavaScript Equality-Table</div><div class="right"><span style="font-weight:bold;">jsequal</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
+      <li>
+	<a href="http://contrast.pxwrk.de/"><div class="left">Contrast Ratio Tool</div><div class="right"><span style="font-weight:bold;">contrast</span>.pxwrk.de</div><div class="clearit"></div></a>
+      </li>
     </ul>
     <p>
       GitHub stuff
