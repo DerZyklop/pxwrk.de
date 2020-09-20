@@ -7,18 +7,13 @@
       Projects by <a href="http://www.twitter.com/derzyklop/">@DerZyklop</a>
     </p>
     <ul>
-<!--      <li>
-          <a href="http://manisch.pxwrk.de/"><div class="left">Gießen-Manisch Wörterbuch</div><div class="right"><span style="font-weight:bold;">manisch</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li>-->
-<!--      <li>
-          <a href="http://portfolio.pxwrk.de/"><div class="left">Mein Portfolio</div><div class="right"><span style="font-weight:bold;">portfolio</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li>-->
       <li>
           <a href="http://photo.pxwrk.de/"><div class="left">Meine Photos</div><div class="right"><span style="font-weight:bold;">photo</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
-      <li>
+<!--      <li>
           <a href="http://video.pxwrk.de/"><div class="left">Meine Videoproduktionen</div><div class="right"><span style="font-weight:bold;">video</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
+-->
       <li>
           <a href="http://kirbyintro.pxwrk.de/"><div class="left">Kirby Intro</div><div class="right"><span style="font-weight:bold;">kirbyintro</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
@@ -40,17 +35,11 @@
     </p>
     <ul>
       <li>
-          <a href="http://am-i-responsive.pxwrk.de/"><div class="left">Responsive Webdesign Showroom</div><div class="right"><span style="font-weight:bold;">am-i-responsive</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li>
-      <li>
           <a href="http://md5.pxwrk.de/"><div class="left">MD5 generator</div><div class="right"><span style="font-weight:bold;">md5</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
       <li>
           <a href="http://mrdataconverter.pxwrk.de/"><div class="left">MrDataConverter</div><div class="right"><span style="font-weight:bold;">mrdataconverter</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
-<!--       <li>
-          <a href="http://owncloud.pxwrk.de/"><div class="left">owncloud</div><div class="right"><span style="font-weight:bold;">owncloud</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li> -->
       <li>
         <a href="http://delete.pxwrk.de/"><div class="left">justdelete.me</div><div class="right"><span style="font-weight:bold;">delete</span>.pxwrk.de</div><div class="clearit"></div></a>
       </li>
