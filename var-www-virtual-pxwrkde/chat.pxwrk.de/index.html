@@ -1,0 +1,76 @@
+<style>
+	.status-msg {
+		color: #aaa;
+	}
+
+	#form_id {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		margin: 0;
+		margin: 1em;
+	}
+
+	#input {
+		flex-grow: 1;
+	}
+</style>
+
+<ul id="messages"></ul>
+
+<form id="form_id" action="">
+	<input id="input" type="text">
+	<button id="submit_btn" type="submit">Send</button>
+</form>
+
+<script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+
+<script>
+	window.addEventListener('load', () => {
+		let socket = io.connect('https://pxwrk.de/chat');
+
+		let myId;
+
+		document.getElementById('form_id').addEventListener('submit', (event) => {
+			event.preventDefault();
+			let inputEl = document.getElementById('input');
+			const VALUE = inputEl.value;
+			if (!VALUE) return;
+			socket.emit('user send message', { id : myId, msg : inputEl.value });
+			inputEl.value = '';
+		});
+
+		socket.on('new id', (params) => {
+			if (myId) return;
+			console.log('own id', params);
+			myId = params;
+		});
+		socket.on('user join', (user, userCount) => {
+			let newEntry = document.createElement('li');
+			newEntry.classList = 'status-msg';
+			newEntry.innerHTML = `${user.name} joined chat`;
+			document.getElementById('messages').appendChild(newEntry);
+			let newEntry2 = document.createElement('li');
+			newEntry2.classList = 'status-msg';
+			newEntry2.innerHTML = `Amount of Users in Chat: ${userCount}`;
+			document.getElementById('messages').appendChild(newEntry2);
+		});
+		socket.on('user leave', (params) => {
+			console.log('leave');
+			let newEntry = document.createElement('li');
+			newEntry.classList = 'status-msg';
+			newEntry.innerHTML = 'user leave';
+			document.getElementById('messages').appendChild(newEntry);
+		});
+
+		socket.on('user send message', (msg, user) => {
+			let newEntry = document.createElement('li');
+			newEntry.style = 'color:' + user.color;
+			newEntry.innerHTML = `${user.name}: ${msg}`;
+			document.getElementById('messages').appendChild(newEntry);
+		});
+
+	});
+</script>

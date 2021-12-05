@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(photo\.)?pxwrk\.de 
+RewriteRule ^$ https://500px.com/derzyklop

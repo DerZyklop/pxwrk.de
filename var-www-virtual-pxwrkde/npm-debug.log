@@ -1,0 +1,291 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/package/host/localhost/nodejs-0.10.30/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'shout' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'shout', null ]
+5 verbose cache add name=undefined spec="shout" args=["shout",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'shout',
+6 verbose parsed url   path: 'shout',
+6 verbose parsed url   href: 'shout' }
+7 silly lockFile d1c79aa3-shout shout
+8 verbose lock shout /home/pxwrk/.npm/d1c79aa3-shout.lock
+9 silly lockFile d1c79aa3-shout shout
+10 silly lockFile d1c79aa3-shout shout
+11 verbose addNamed [ 'shout', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 20e5da28-shout shout@
+14 verbose lock shout@ /home/pxwrk/.npm/20e5da28-shout.lock
+15 silly addNameRange { name: 'shout', range: '*', hasData: false }
+16 verbose request where is /shout
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ce7743e2946b7494
+19 verbose url raw /shout
+20 verbose url resolving [ 'https://registry.npmjs.org/', './shout' ]
+21 verbose url resolved https://registry.npmjs.org/shout
+22 verbose request where is https://registry.npmjs.org/shout
+23 info trying registry request attempt 1 at 10:21:09
+24 http GET https://registry.npmjs.org/shout
+25 http 200 https://registry.npmjs.org/shout
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Fri, 24 Oct 2014 08:21:10 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"48L1PSTGDK1E2DL743DL6INGD"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '170547',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-ams4137-AMS',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1414138870.289922,VS0,VE569',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'shout', range: '*', hasData: true }
+28 silly addNameRange versions [ 'shout',
+28 silly addNameRange   [ '0.2.2',
+28 silly addNameRange     '1.0.0-alpha1',
+28 silly addNameRange     '1.0.0-alpha2',
+28 silly addNameRange     '1.0.0-alpha3',
+28 silly addNameRange     '1.0.0-alpha4',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.6',
+28 silly addNameRange     '0.8.9',
+28 silly addNameRange     '0.8.10',
+28 silly addNameRange     '0.8.12',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '0.9.5',
+28 silly addNameRange     '0.9.6',
+28 silly addNameRange     '0.9.7',
+28 silly addNameRange     '0.9.8',
+28 silly addNameRange     '0.9.9',
+28 silly addNameRange     '0.9.10',
+28 silly addNameRange     '0.9.11',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.10.1',
+28 silly addNameRange     '0.10.2',
+28 silly addNameRange     '0.10.3',
+28 silly addNameRange     '0.10.4',
+28 silly addNameRange     '0.10.5',
+28 silly addNameRange     '0.10.6',
+28 silly addNameRange     '0.10.7',
+28 silly addNameRange     '0.10.8',
+28 silly addNameRange     '0.11.0',
+28 silly addNameRange     '0.12.0',
+28 silly addNameRange     '0.12.1',
+28 silly addNameRange     '0.12.2',
+28 silly addNameRange     '0.12.3',
+28 silly addNameRange     '0.13.0',
+28 silly addNameRange     '0.14.0',
+28 silly addNameRange     '0.14.1',
+28 silly addNameRange     '0.14.2',
+28 silly addNameRange     '0.15.0',
+28 silly addNameRange     '0.15.1',
+28 silly addNameRange     '0.16.0',
+28 silly addNameRange     '0.17.0',
+28 silly addNameRange     '0.18.1',
+28 silly addNameRange     '0.19.0',
+28 silly addNameRange     '0.20.0',
+28 silly addNameRange     '0.20.1',
+28 silly addNameRange     '0.21.0',
+28 silly addNameRange     '0.21.1',
+28 silly addNameRange     '0.21.2',
+28 silly addNameRange     '0.21.3',
+28 silly addNameRange     '0.21.4',
+28 silly addNameRange     '0.22.0',
+28 silly addNameRange     '0.23.0',
+28 silly addNameRange     '0.23.2',
+28 silly addNameRange     '0.23.3',
+28 silly addNameRange     '0.24.0',
+28 silly addNameRange     '0.25.0',
+28 silly addNameRange     '0.25.1',
+28 silly addNameRange     '0.25.2',
+28 silly addNameRange     '0.25.3',
+28 silly addNameRange     '0.26.0',
+28 silly addNameRange     '0.26.1',
+28 silly addNameRange     '0.26.2',
+28 silly addNameRange     '0.27.0',
+28 silly addNameRange     '0.27.1',
+28 silly addNameRange     '0.27.2',
+28 silly addNameRange     '0.28.0',
+28 silly addNameRange     '0.29.0',
+28 silly addNameRange     '0.29.1',
+28 silly addNameRange     '0.30.0',
+28 silly addNameRange     '0.30.1',
+28 silly addNameRange     '0.30.2',
+28 silly addNameRange     '0.30.3',
+28 silly addNameRange     '0.31.0',
+28 silly addNameRange     '0.31.1',
+28 silly addNameRange     '0.31.2',
+28 silly addNameRange     '0.31.3',
+28 silly addNameRange     '0.31.4',
+28 silly addNameRange     '0.31.5',
+28 silly addNameRange     '0.31.6',
+28 silly addNameRange     '0.31.7',
+28 silly addNameRange     '0.31.8',
+28 silly addNameRange     '0.32.0',
+28 silly addNameRange     '0.32.1',
+28 silly addNameRange     '0.32.2',
+28 silly addNameRange     '0.32.3',
+28 silly addNameRange     '0.32.5',
+28 silly addNameRange     '0.33.0',
+28 silly addNameRange     '0.33.1',
+28 silly addNameRange     '0.33.2',
+28 silly addNameRange     '0.34.0',
+28 silly addNameRange     '0.34.1',
+28 silly addNameRange     '0.35.1',
+28 silly addNameRange     '0.37.0',
+28 silly addNameRange     '0.37.1',
+28 silly addNameRange     '0.37.3',
+28 silly addNameRange     '0.37.4',
+28 silly addNameRange     '0.38.0',
+28 silly addNameRange     '0.38.1',
+28 silly addNameRange     '0.38.2',
+28 silly addNameRange     '0.38.4',
+28 silly addNameRange     '0.38.5',
+28 silly addNameRange     '0.38.6',
+28 silly addNameRange     '0.38.7',
+28 silly addNameRange     '0.38.8',
+28 silly addNameRange     '0.39.0',
+28 silly addNameRange     '0.39.1',
+28 silly addNameRange     '0.40.0',
+28 silly addNameRange     '0.40.1',
+28 silly addNameRange     '0.40.2',
+28 silly addNameRange     '0.40.3',
+28 silly addNameRange     '0.41.0',
+28 silly addNameRange     '0.41.1',
+28 silly addNameRange     '0.42.0',
+28 silly addNameRange     '0.43.0',
+28 silly addNameRange     '0.43.1',
+28 silly addNameRange     '0.43.2',
+28 silly addNameRange     '0.44.0',
+28 silly addNameRange     '0.45.0',
+28 silly addNameRange     '0.45.1',
+28 silly addNameRange     '0.45.2' ] ]
+29 verbose addNamed [ 'shout', '0.45.2' ]
+30 verbose addNamed [ '0.45.2', '0.45.2' ]
+31 silly lockFile 9727c40d-shout-0-45-2 shout@0.45.2
+32 verbose lock shout@0.45.2 /home/pxwrk/.npm/9727c40d-shout-0-45-2.lock
+33 silly lockFile abe9c68e-npmjs-org-shout-shout-0-45-2-tgz https://registry.npmjs.org/shout/-/shout-0.45.2.tgz
+34 verbose lock https://registry.npmjs.org/shout/-/shout-0.45.2.tgz /home/pxwrk/.npm/abe9c68e-npmjs-org-shout-shout-0-45-2-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/shout/-/shout-0.45.2.tgz',
+35 verbose addRemoteTarball   '8d68a378a11946335231cefd5b5f0610b72ddf08' ]
+36 info retry fetch attempt 1 at 10:21:10
+37 verbose fetch to= /tmp/npm-15562-hdWIRaKj/registry.npmjs.org/shout/-/shout-0.45.2.tgz
+38 http GET https://registry.npmjs.org/shout/-/shout-0.45.2.tgz
+39 http 200 https://registry.npmjs.org/shout/-/shout-0.45.2.tgz
+40 silly lockFile abe9c68e-npmjs-org-shout-shout-0-45-2-tgz https://registry.npmjs.org/shout/-/shout-0.45.2.tgz
+41 silly lockFile abe9c68e-npmjs-org-shout-shout-0-45-2-tgz https://registry.npmjs.org/shout/-/shout-0.45.2.tgz
+42 silly lockFile 9727c40d-shout-0-45-2 shout@0.45.2
+43 silly lockFile 9727c40d-shout-0-45-2 shout@0.45.2
+44 silly lockFile 20e5da28-shout shout@
+45 silly lockFile 20e5da28-shout shout@
+46 silly resolved [ { name: 'shout',
+46 silly resolved     description: 'The self-hosted web IRC client',
+46 silly resolved     version: '0.45.2',
+46 silly resolved     author: { name: 'Mattias Erming' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     bin: { shout: 'index.js' },
+46 silly resolved     main: 'http://localhost:9000/',
+46 silly resolved     'node-main': './index.js',
+46 silly resolved     window: { title: 'Shout', toolbar: false, height: 640, width: 1024 },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/erming/shout.git' },
+46 silly resolved     scripts: { start: 'node index' },
+46 silly resolved     keywords: [ 'browser', 'web', 'chat', 'client', 'irc', 'server' ],
+46 silly resolved     license: 'MIT',
+46 silly resolved     dependencies:
+46 silly resolved      { 'bcrypt-nodejs': '0.0.3',
+46 silly resolved        cheerio: '^0.17.0',
+46 silly resolved        commander: '^2.3.0',
+46 silly resolved        express: '^4.9.5',
+46 silly resolved        lodash: '~2.4.1',
+46 silly resolved        mkdirp: '^0.5.0',
+46 silly resolved        moment: '~2.7.0',
+46 silly resolved        read: '^1.0.5',
+46 silly resolved        'slate-irc': '~0.7.3',
+46 silly resolved        'socket.io': '~1.0.6',
+46 silly resolved        superagent: '^0.18.2' },
+46 silly resolved     devDependencies:
+46 silly resolved      { grunt: '~0.4.5',
+46 silly resolved        'grunt-contrib-uglify': '~0.5.0',
+46 silly resolved        'grunt-contrib-watch': '^0.6.1',
+46 silly resolved        handlebars: '^2.0.0' },
+46 silly resolved     gitHead: '3fc80efd7c5dcb82c42f69b61ec9d5cb584f15cf',
+46 silly resolved     bugs: { url: 'https://github.com/erming/shout/issues' },
+46 silly resolved     homepage: 'https://github.com/erming/shout',
+46 silly resolved     _id: 'shout@0.45.2',
+46 silly resolved     _shasum: '8d68a378a11946335231cefd5b5f0610b72ddf08',
+46 silly resolved     _from: 'shout@',
+46 silly resolved     _npmVersion: '2.1.2',
+46 silly resolved     _nodeVersion: '0.10.25',
+46 silly resolved     _npmUser: { name: 'erming', email: 'mattias@mattiaserming.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '8d68a378a11946335231cefd5b5f0610b72ddf08',
+46 silly resolved        tarball: 'http://registry.npmjs.org/shout/-/shout-0.45.2.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/shout/-/shout-0.45.2.tgz' } ]
+47 info install shout@0.45.2 into /package/host/localhost/nodejs-0.10.30/lib
+48 info installOne shout@0.45.2
+49 verbose lib/node_modules/shout unbuild
+50 verbose tar unpack /home/pxwrk/.npm/shout/0.45.2/package.tgz
+51 silly lockFile ef5db894-s-0-10-30-lib-node-modules-shout tar:///package/host/localhost/nodejs-0.10.30/lib/node_modules/shout
+52 verbose lock tar:///package/host/localhost/nodejs-0.10.30/lib/node_modules/shout /home/pxwrk/.npm/ef5db894-s-0-10-30-lib-node-modules-shout.lock
+53 silly lockFile 41987cb5-wrk-npm-shout-0-45-2-package-tgz tar:///home/pxwrk/.npm/shout/0.45.2/package.tgz
+54 verbose lock tar:///home/pxwrk/.npm/shout/0.45.2/package.tgz /home/pxwrk/.npm/41987cb5-wrk-npm-shout-0-45-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '775', '664' ]
+56 error Error: EACCES, mkdir '/package/host/localhost/nodejs-0.10.30/lib/node_modules/shout'
+56 error  { [Error: EACCES, mkdir '/package/host/localhost/nodejs-0.10.30/lib/node_modules/shout']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/package/host/localhost/nodejs-0.10.30/lib/node_modules/shout',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/package/host/localhost/nodejs-0.10.30/lib/node_modules/shout',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/package/host/localhost/nodejs-0.10.30/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/package/host/localhost/nodejs-0.10.30/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 2.6.32-431.11.2.el6.x86_64
+59 error command "/package/host/localhost/nodejs-0.10.30/bin/node" "/usr/local/bin/npm" "install" "-g" "shout"
+60 error cwd /var/www/virtual/pxwrk
+61 error node -v v0.10.30
+62 error npm -v 1.4.21
+63 error path /package/host/localhost/nodejs-0.10.30/lib/node_modules/shout
+64 error fstream_path /package/host/localhost/nodejs-0.10.30/lib/node_modules/shout
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/package/host/localhost/nodejs-0.10.30/lib/node_modules/shout'
+70 error fstream_stack /package/host/localhost/nodejs-0.10.30/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /package/host/localhost/nodejs-0.10.30/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

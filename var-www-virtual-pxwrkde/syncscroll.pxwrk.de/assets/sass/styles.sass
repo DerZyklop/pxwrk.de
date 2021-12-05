@@ -1,0 +1,52 @@
+@import 'config'
+
+@import '../../../../github.pxwrk.de/pxwrk-sass-dummy-0.4/mixins/all'
+
++all
+
+body
+  font-family: $font-std
+
+.page-wrap
+  width: $page-width
+  margin: 0 auto
+
+h1, h2
+  text-align: center
+
+h1
+  font-size: 3em
+  padding-bottom: 0
+h2
+  font-size: 1em
+
+#first
+  float: left
+  font-family: courier, monospace
+  line-height: 1.7em
+
+#second
+  float: right
+  font-family: $font-highlight
+  font-size: 16px
+  line-height: 26px
+
+#first,
+#second
+  width: 48%
+  height: 200px
+  overflow: scroll
+  border: 1px solid $border-color
+  padding: 1em
+  box-sizing: border-box
+
+.clearit
+  height: 0 !important
+  width: 0 !important
+  line-height: 0 !important
+  clear: both !important
+  float: none !important
+
+hr
+  background: $primary
+  margin: 1em 0
