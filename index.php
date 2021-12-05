@@ -26,9 +26,9 @@
       <li>
           <a href="http://www.der-zyklop.de/"><div class="left">Mein Blog</div><div class="right">www.der-zyklop.de</div><div class="clearit"></div></a>
       </li>
-      <li>
+      <!-- <li>
           <a href="http://heizdeckenradio.pxwrk.de/"><div class="left">Podcast HeizdeckenRadio</div><div class="right"><span style="font-weight:bold;">heizdeckenradio</span>.pxwrk.de</div><div class="clearit"></div></a>
-      </li>
+      </li> -->
     </ul>
     <p>
       Useful OpenSource tools
